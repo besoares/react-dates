@@ -833,7 +833,7 @@ class DayPicker extends React.PureComponent {
     if (nextFocusedDate) {
       newFocusedDate = nextFocusedDate;
     } else if (!focusedDate && !withMouseInteractions) {
-      newFocusedDate = this.getFocusedDay(newMonth);
+      //newFocusedDate = this.getFocusedDay(newMonth);
     }
 
     this.setState({
