@@ -38,6 +38,7 @@ node_modules
 .storybook
 .storybook-css
 _gh-pages
+examples
 MAINTAINERS
 public
 react-dates-demo.gif
