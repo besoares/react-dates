@@ -60,7 +60,7 @@ class CalendarDay extends React.PureComponent {
     if (tabIndex === 0) {
       if (isFocused || tabIndex !== prevProps.tabIndex) {
         raf(() => {
-          if (this.buttonRef) {
+          if (this.buttonRef && document.activeElement.className.indexOf('DayPickerNavigation_button') < 0) {
             this.buttonRef.focus();
           }
         });
